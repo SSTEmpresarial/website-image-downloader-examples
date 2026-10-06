@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "website-image-downloader": {
+      "url": "https://mcp.apify.com?tools=sste/website-image-downloader"
+    }
+  }
+}

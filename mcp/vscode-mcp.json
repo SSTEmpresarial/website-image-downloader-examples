@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "website-image-downloader": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=sste/website-image-downloader"
+    }
+  }
+}

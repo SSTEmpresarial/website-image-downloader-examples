@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.SSTEmpresarial/website-image-downloader",
+  "title": "Website Image Downloader",
+  "description": "Download all images from any web page or extract image URLs, with sizes, formats and alt text.",
+  "version": "1.0.0",
+  "websiteUrl": "https://website-image-downloader.pages.dev/mcp/",
+  "repository": {
+    "url": "https://github.com/SSTEmpresarial/website-image-downloader-examples",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=sste/website-image-downloader",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Apify API token as 'Bearer <token>' (free Apify account; pay per image)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
